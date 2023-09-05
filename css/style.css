@@ -5,10 +5,20 @@ nav {
 }
 
 .nav-title {
-    font-size: 2rem;
-    font-weight: 700;
     display: flex;
-    color: #131313;
+    align-items: center;
+
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.nav-title span {
+    color: #FF42A5;
 }
 
 nav>ul {
@@ -19,7 +29,7 @@ nav>ul {
 nav li {
     list-style: none;
     margin-right: 30px;
-    font-size: 1rem;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -41,4 +51,87 @@ li a {
 #youtube {
     margin-right: 5px;
     color: red;
+}
+
+.banner {
+    display: flex;
+}
+
+.background_cover {
+    background-image: url('../images/Group_14.png');
+    background-repeat: no-repeat;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text-title {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.h2-style {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.p-style {
+    color: #534C64;
+
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+}
+
+.btn_style1 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    border: none;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+}
+.btn_style2{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: #4EC5F7;
+border: 0;
 }
