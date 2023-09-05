@@ -158,25 +158,176 @@ li a {
     text-align: end;
     margin-right: 240px;
 }
-.gamer_text{
-    text-align: right;
-font-family: Work Sans;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-}
-.last_text{
-    color: #534C64;
-text-align: right;
-font-family: Work Sans;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: 45px; /* 187.5% */
 
+.gamer_text {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.last_text {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    /* 187.5% */
+
+}
+
+.firs-text {
+    text-align: center;
+}
+
+#h5_text {
+    color: #0B0223;
+
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+#h5_text span {
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.grid-system {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 48px;
+}
+
+/* procosos */
+
+
+
+/*  */
+
+.bg-careers {
+    width: 1920px;
+    height: 821px;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+    margin-top: 120px;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.margin {
+    margin-left: 240px;
+}
+
+.text-careers {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 125% */
+}
+
+.text-gamer {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    word-wrap: break-word;
+}
+
+.tow-cloum {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 97px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    /* 200% */
+}
+
+.btn {
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #FFF;
+    border: 0;
+    color: #FF42A5;
+}
+
+
+.top-margin {
+    margin-top: 130px;
+}
+
+.text-img-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 33px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 243px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+
+}
+
+.flex p {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
