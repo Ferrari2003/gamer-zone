@@ -1,0 +1,44 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    color: #131313;
+}
+
+nav>ul {
+    display: flex;
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+li a {
+    text-decoration: none;
+    color: #424242;
+
+}
+
+.icon-content {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 3px;
+    align-items: center;
+}
+
+
+#youtube {
+    margin-right: 5px;
+    color: red;
+}
