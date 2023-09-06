@@ -274,83 +274,6 @@ li a {
 }
 
 
-
-
-
-.bg-careers {
-    width: 1920px;
-    height: 821px;
-    flex-shrink: 0;
-    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
-    margin-top: 120px;
-}
-
-.grid {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.margin {
-    margin-left: 240px;
-}
-
-.text-careers {
-    color: #FFF;
-    font-family: Work Sans;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px;
-    /* 125% */
-}
-
-.text-gamer {
-    color: #FFF;
-    font-family: Work Sans;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 166.667% */
-    word-wrap: break-word;
-}
-
-.tow-cloum {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 97px;
-    color: #FFF;
-    font-family: Work Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 40px;
-    /* 200% */
-}
-
-.btn {
-    font-family: Work Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-transform: uppercase;
-    display: inline-flex;
-    padding: 21px 40px;
-    align-items: flex-start;
-    gap: 10px;
-    border-radius: 48px;
-    background: #FFF;
-    border: 0;
-    color: #FF42A5;
-}
-
-
-.top-margin {
-    margin-top: 130px;
-}
-
 .text-img-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -488,4 +411,78 @@ footer {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+
+
+/* responsive */
+
+
+@media screen and (max-width: 576px) {
+   .banner{
+    flex-direction: column-reverse;
+   }
+   .banner img{
+    width: 100%;
+   }
+   .background_cover{
+ padding: 50px;
+   }
+   .text-title{
+    font-size: 25px;
+   }
+   .h2-style{
+    font-size: 35px;
+   }
+   .btn_style1{
+    padding: 15px 30px;
+   }
+   .btn_style2{
+    padding: 15px 30px;
+   }
+   .header_last_style{
+    flex-direction: column;
+   }
+  .header_last_style img{
+    width: 100%;
+  }
+   .text{
+     margin-left: 100px;
+   }
+
+  .grid-system{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .main-feature{
+    flex-direction: column;
+    padding: 50px;
+  }
+  .img_style img{
+    width: 100%;
+  }
+ .text-img-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+ }
+ footer{
+    width: 100%;
+    padding-bottom: 50px;
+    text-align: center;
+ }
+ .inline_style{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+ }
+ .svg{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+ }
+ .inline{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+ }
+ .footer-last{
+    word-wrap: break-word;
+ }
 }
