@@ -234,7 +234,8 @@ li a {
     gap: 120px;
     margin-top: 122px;
 }
-.all-text{
+
+.all-text {
     margin-bottom: 20%;
 }
 
@@ -257,6 +258,7 @@ li a {
     -webkit-text-fill-color: transparent;
 
 }
+
 .image {
     margin-left: 140px;
 }
@@ -271,26 +273,6 @@ li a {
 
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20%;
-}
-.last-img{
-    width: 318.5px;
-    height: 365.083px;
-    flex-shrink: 0;
-    border-radius: 8px;
-    position: relative;
-    bottom: 250px;
-    margin-left: 80%;
-}
-
-
-.texts{
-    margin-bottom: 20%;
-}
 
 
 
@@ -391,7 +373,7 @@ li a {
 
 }
 
-#border_style {
+.flex :hover {
     border-radius: 50px;
     border: 1.5px solid var(--Linear, #FF42A5);
     background: #FFF;
@@ -399,7 +381,10 @@ li a {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
+    
+} 
+
+
 
 .flex p {
     color: #0B0223;
